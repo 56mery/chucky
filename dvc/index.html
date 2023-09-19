@@ -8,35 +8,190 @@
     <meta name="description" content="İrem Çetinkol Blog">
     <title>İrem Çetinkol Blog</title>
 
-        <style>
-            div.class1 > p:first-child {
-                color: blueviolet;
-            }
-            div.class2 > h3:nth-child(5) {
-                color: aqua;
-            }
-        </style>
-    </head>
-    
-    <body>
-        <div class="class1">
-            <p>no 1</p>
-            <p>no 2</p>
-            <p>no 3</p>
-            <p>no 4</p>
-        </div>
-    
-        <div class="class2">
-            <p>no 1</p>
-            <p>no 2</p>
-            <p>no 3</p>
-            <p>no 4</p>
+    <style>
+        th,
+        td,
+        tr {
+            border: 2px solid black;
+            border-collapse: collapse;
+            border-style: inset;
+            border-radius: 10%;
+        }
 
-            <h3>number 1</h3>
-            <h3> number 2</h3>
+        #customers {
+            background-color: rgb(209, 205, 205);
+            color: rgb(11, 11, 12);
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: yellow;
+        }
+
+        #customers th {
+            background-color: rgb(141, 68, 68);
+            color: white;
+        }
+
+        .hero {
+            background-image: url"video/Heros/bc16e2ec555c056ae5506e225ab9bb0c.jpg";
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .hero img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            text-align: right;
+        }
+
+        .foti {
+            display: flex;
+            align-items: center;
+        }
+
+        .table {
+            margin-right: 50px;
+            border: 1px black;
+            border-radius: 20%;
+        }
+
+        .nwh {
+            width: 1100px;
+            height: 300px;
+            overflow: auto;
+            margin-right: 20px;
+        }
+
+        .nwh :first-child {
+            color: rgb(143, 3, 3);
+        }
+
+        .nwh :nth-child(3) {
+            color: rgb(170, 48, 3);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="foti">
+        <table class="table" id="customers" border="70px" style="display: inline-block;">
+            <tr>
+                <th>Hero</th>
+                <th>Power</th>
+                <th>Fame</th>
+            </tr>
+
+            <tr>
+                <td>Spiderman</td>
+                <td>%75</td>
+                <td>Most famous Hero nowadays</td>
+            </tr>
+
+            <tr>
+                <td>İron man</td>
+                <td>%90</td>
+                <td>Genius and icon</td>
+            </tr>
+
+            <tr>
+                <td>Batman</td>
+                <td>%100</td>
+                <td>Always Legendary</td>
+            </tr>
+
+            <tr>
+                <td>Hulk</td>
+                <td>%89</td>
+                <td>Big Dude</td>
+            </tr>
+
+            <tr>
+                <td>Doctor Strange</td>
+                <td>%80</td>
+                <td>Magic</td>
+            </tr>
+
+        </table>
+
+
+        <br><br><br><br>
+
+        <h3> <i>Chose Your Favorite Superhero </i></h3>
+
+
+        <div class="hero" style="display: inline-block;">
+
+            <img src="video/Heros/bc16e2ec555c056ae5506e225ab9bb0c.jpg" alt="Fotiniz bulunamadı">
+            <br>
+            <input type="radio"> Sm
         </div>
-    </body>
-    
-    </html>
+
+
+        <div class="hero" style="display: inline-block;">
+            <img src="video/Heros/b8e3957a86f6f5f9d207e33a4f88b793.jpg" alt="Fotiniz bulunmadı">
+            <br>
+            <input type="radio"> Im
+        </div>
+
+
+        <div class="hero" style="display: inline-block;">
+            <img src="video/Heros/42e6b484930e3bbc330610da34d4648b.jpg" alt="Fotiniz bulunamadı">
+            <br>
+            <input type="radio"> Bm
+        </div>
+
+        <div class="hero" style="display: inline-block;">
+            <img src="video/Heros/5c4434cd53f648af2e6e323efa684297.jpg" alt="Fotiniz bulunamadı">
+            <br>
+            <input type="radio"> H
+        </div>
+
+
+        <div class="hero" style="display: inline-block;">
+            <img src="video/Heros/9a2473d435eb07baef3b2c194a457876.jpg" alt="Fotiniz bulunamadı">
+            <br>
+            <input type="radio"> Ds
+        </div>
+
+    </div>
+
+    <br><br><br><br><br>
+
+    <div class="nwh" style="display: inline-block;">
+        <h2>Spiderman No Way Home</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nihil iure ipsa distinctio eveniet
+            perspiciatis quae quam neque sed, temporibus aperiam consectetur deserunt animi ipsum molestiae? Illo libero
+            assumenda inventore!.</h3>
+        <h2>Docter Strange In The Multiverse Of Universe</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias laborum ab praesentium illum itaque quia,
+            sit unde aperiam quod quam eius animi impedit eos, illo vel dicta exercitationem repellat quis asperiores
+            assumenda architecto tempora rem voluptas. Fugit, et hic esse, earum facere aut minima beatae accusantium
+            laborum eligendi quo eveniet quibusdam eum rem exercitationem! Maiores beatae, recusandae accusantium porro
+            iste voluptates eligendi illo eius, minima est dignissimos sapiente natus rerum facilis? Quae repellat non
+            libero earum? Ipsa recusandae vero totam, deleniti quidem distinctio sunt eaque? Nulla harum ipsam ut, quasi
+            unde accusamus quo eveniet, nostrum provident molestias doloremque animi repellat.</h3>
+
+    </div>
+
+    <br><br><br><br><br>
+   
+        <h2 style="display: inline-block;">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" style="display: inline-block;">
+                <img src="video/Heros/8fe4669ccbe240ebfe3bce3b19f6665c.jpg" width="150px" height="150px"></img>
+            </a>
+            I leave a link for you. <br>
+            You can watch "Avangers Endgame" overthere. <br>
+            Enjoy watching. <br>
+        </h2>
+
     
 
+</body>
+
+</html>
